@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MAKAY! Generátor tréningového programu</title>
+  </head>
+  <body>
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+            >
+              Custom button
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg px-4">
+              Secondary
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="horizontal-divider bg-dark text-secondary"></div>
+
+    <div class="container-fluid bg-dark text-secondary">
+      <div class="container">
+      </form>
+        <div class="row">
+          <div class="col">
+            <h2>Contact Information</h2>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="firstName"
+                placeholder="First Name"
+              />
+              <label for="firstName">First Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="lastName"
+                placeholder="Last Name"
+              />
+              <label for="firstName">Last Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+              />
+              <label for="email">Email address</label>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Physical Info</h2>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="age"
+                placeholder="Age"
+              />
+              <label for="age">Age</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="weight"
+                placeholder="Weight"
+              />
+              <label for="weight">Weight</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                n
+                class="form-control"
+                id="height"
+                placeholder="Height"
+              />
+              <label for="height">Height</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                n
+                class="form-control"
+                id="bodyfat"
+                placeholder="Bodyfat %t"
+              />
+              <label for="bodyfat">Bodyfat %</label>
+            </div>
+            <div class="form-floating">
+              <select
+                class="form-select"
+                id="activityLevel"
+                aria-label="Floating label select example"
+              >
+                <option value="1.2">Sedentary</option>
+                <option value="1.375">Lightly Active</option>
+                <option value="1.55">Moderately Active</option>
+                <option value="1.725">Very Active</option>
+                <option value="1.9">Extremely Active</option>
+              </select>
+              <label for="activityLevel">Activity level</label>
+            </div>
+          </div>
+          <div class="col">
+            <h2>Strength Standards</h2>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="maxSquat"
+                placeholder="Max Squat"
+              />
+              <label for="maxSquat">Max Squat</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="maxDeadlift"
+                placeholder="Max Deadlift"
+              />
+              <label for="maxDeadlift">Max Deadlift</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="maxBenchPress"
+                placeholder="MAX BENCH PRES"
+              />
+              <label for="maxBenchPress">Max Bench Press</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="maxOHP"
+                placeholder="Max Overhead Press"
+              />
+              <label for="maxOHP">Max Overhead Press</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                class="form-control"
+                id="maxPullups"
+                placeholder="Max Bodyweigth Pullups"
+              />
+              <label for="maxPullups">Max Bodyweigth Pullups</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="horizontal-divider bg-dark text-secondary"></div>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button
+          type="submit"
+          id="trainingProgramInputForm"
+          class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+    <div class="horizontal-divider bg-dark text-secondary"></div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
